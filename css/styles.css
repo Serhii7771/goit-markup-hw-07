@@ -1142,7 +1142,7 @@ body {
 
   .burger {
     /* border: none; */
-    border: 3px solid #2e2f42;
+    /* border: 3px solid #2e2f42; */
     background-color: transparent;
     padding: 0;
     /* margin-right: 18px;
@@ -1294,6 +1294,10 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+  }
+
+  .section-two-icon {
+    display: none;
   }
 
   .section-two-icon {
