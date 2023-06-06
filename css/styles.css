@@ -1009,6 +1009,10 @@ body {
     background-image: url(../images/img-name-mobile.jpg);
   }
 
+  .section-two-li {
+    width: 100%;
+  }
+
   /* .container {
     max-width: 428px;
     padding-left: 16px;
@@ -1315,6 +1319,21 @@ body {
   .section-one {
     background-image: url(../images/img-name-tablet.jpg);
   }
+
+  .section-one-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+
   .footer-div {
     display: flex;
     flex-wrap: wrap;
@@ -1371,7 +1390,11 @@ body {
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .section-one {
-    background-image: url(../images/img-name-tablet@2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/img-name-tablet@2x.jpg);
   }
 }
 
@@ -1410,6 +1433,13 @@ body {
     row-gap: 72px;
   }
 
+  .section-two-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
   .footer {
     background-color: #2e2f42;
     padding-top: 96px;
@@ -1422,5 +1452,11 @@ body {
 
   .section-two-icon {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .section-one-title {
+    margin-bottom: 36px;
   }
 }
