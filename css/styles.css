@@ -639,6 +639,7 @@ body {
 
 .footer-p {
   font-style: normal;
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1568,6 +1569,80 @@ body {
     max-width: 1158px;
     padding-left: 0 15px;
   }
+
+  .section-two-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2e2f42;
+  }
+
+  .contact-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: inline;
+  }
+
+  .adress-list-item-li {
+    margin-top: 0;
+  }
+  .menu {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  .adress {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .footer-subscribe {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-centr {
+    margin-right: 80px;
+  }
+
+  .footer-div-a-p {
+    margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .section-five-menu {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .section-five {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-container {
+    width: 1158px;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-left: 156px;
+  }
+
+  .section-four-li {
+    width: calc((100% - 120px) / 6);
+  }
+
   /* .menu-address {
     display: flex;
     flex-direction: column;
