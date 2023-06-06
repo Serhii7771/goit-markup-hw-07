@@ -1549,7 +1549,11 @@ body {
 /* ----------------DESCKTOP---------------------------- */
 @media screen and (min-width: 1200px) {
   .section-one {
-    background-image: url(../images/img-name.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/img-name.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
