@@ -343,6 +343,15 @@ body {
   margin-bottom: 8px;
 }
 
+.section-two-titleee {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--section-two-title-color);
+  margin-bottom: 8px;
+}
+
 .section-two-li {
   width: calc((100% - 72px) / 4);
 }
@@ -1354,6 +1363,76 @@ body {
     background-image: url(../images/img-name-tablet.jpg);
   }
 
+  .section-two-li {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .footer-subscribe {
+    margin-left: 108px;
+    width: 100%;
+  }
+
+  .footer-div-a-p {
+    margin-right: 24px;
+    margin-left: 108px;
+  }
+
+  .section-two-titleee {
+    font-family: "Roboto," sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .section-four {
+    background-color: #f4f4fd;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .adress-list-item-li {
+    margin-top: -40px;
+  }
+
+  .section-two-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #2e2f42;
+    text-align: left;
+  }
+  .contact-tel {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    display: block;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contact-tel:hover {
+    color: #404bbf;
+  }
+
+  .adress-list-item {
+    margin-bottom: 12px;
+  }
+
+  .menu-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
   .footer-form {
     display: flex;
     column-gap: 24px;
@@ -1365,7 +1444,7 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    width: 584px;
+    width: 100%;
   }
 
   .section-one-title {
@@ -1380,13 +1459,6 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-  }
-
-  .footer-div {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
   }
 
   .menu-link {
@@ -1483,7 +1555,11 @@ body {
   screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .section-one {
-    background-image: url(../images/img-name-descktop@2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/img-name-descktop@2x.jpg);
   }
 }
 
@@ -1492,6 +1568,11 @@ body {
     max-width: 1158px;
     padding-left: 0 15px;
   }
+  /* .menu-address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  } */
 }
 
 @media screen and (max-width: 1157px) {
@@ -1502,8 +1583,14 @@ body {
     row-gap: 72px;
   }
 
-  .section-two-li {
-    width: 100%;
+  .section-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    color: #434455;
   }
 
   .footer {
