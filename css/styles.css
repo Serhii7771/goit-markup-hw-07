@@ -1315,6 +1315,12 @@ body {
   .section-one {
     background-image: url(../images/img-name-tablet.jpg);
   }
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 
   .menu-link {
     /* font-family: "Roboto", sans-serif;
@@ -1411,10 +1417,6 @@ body {
   }
 
   .section-three {
-    display: none;
-  }
-
-  .section-two-icon {
     display: none;
   }
 
