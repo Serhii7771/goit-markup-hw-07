@@ -1013,6 +1013,27 @@ body {
     width: 100%;
   }
 
+  .footer-subscribe {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+
+  .footer-form-input {
+    display: none;
+    width: 100%;
+  }
+
   /* .container {
     max-width: 428px;
     padding-left: 16px;
@@ -1023,6 +1044,7 @@ body {
 
   .footer-div {
     display: flex;
+    flex-direction: column;
   }
 
   .footer-social {
@@ -1032,6 +1054,18 @@ body {
 
   .footer-centr {
     margin-bottom: 72px;
+    width: 100%;
+  }
+
+  .footer-ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .footer-p {
@@ -1041,6 +1075,7 @@ body {
 
   .footer-div-a-p {
     margin-bottom: 72px;
+    width: 100%;
   }
 
   .footer-container {
@@ -1320,6 +1355,20 @@ body {
     background-image: url(../images/img-name-tablet.jpg);
   }
 
+  .footer-form {
+    display: flex;
+    column-gap: 24px;
+    align-content: stretch;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    width: 584px;
+  }
+
   .section-one-title {
     margin-left: auto;
     margin-right: auto;
@@ -1382,6 +1431,7 @@ body {
 
   .adress {
     font-style: normal;
+    display: block;
     margin-left: auto;
   }
 }
@@ -1402,8 +1452,28 @@ body {
   .container {
     max-width: 768px;
   }
-}
 
+  .section-five-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    justify-content: center;
+  }
+
+  .section-four-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+
+  .team-container {
+    width: 584px;
+  }
+}
 /* ----------------DESCKTOP---------------------------- */
 @media screen and (min-width: 1200px) {
   .section-one {
@@ -1433,11 +1503,8 @@ body {
     row-gap: 72px;
   }
 
-  .section-two-menu {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
+  .section-two-li {
+    width: 100%;
   }
 
   .footer {
