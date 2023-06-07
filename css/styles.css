@@ -1644,7 +1644,7 @@ body {
   }
 
   .section-four-li {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 72px) / 4);
   }
 
   /* .menu-address {
