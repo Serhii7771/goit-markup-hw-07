@@ -1574,6 +1574,10 @@ body {
     padding-left: 0 15px;
   }
 
+  .section-five-li {
+    width: calc((100% - 120px) / 6);
+  }
+
   .section-two-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
