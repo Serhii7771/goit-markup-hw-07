@@ -290,18 +290,25 @@ body {
   margin-bottom: 8px;
 }
 
-.section-p {
+.sectionthree-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color-p);
   margin-bottom: 8px;
 }
-*/
+
+/* .section-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-p);
+  margin-bottom: 8px;
+} */
 
 /* title-two */
 
- .section-two-icon {
+.section-two-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1022,6 +1029,16 @@ body {
     height: 432px;
   }
 
+  .sectionthree-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    color: #434455;
+  }
+
   .curent-menu-link {
     color: #404bbf;
     font-family: "Roboto", sans-serif;
@@ -1416,6 +1433,37 @@ body {
     gap: 0;
   }
 
+  .sectionthree-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    color: #434455;
+  }
+
+  .section-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    color: #434455;
+  }
+
+  .section-four-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+    color: #434455;
+    text-align: center;
+  }
+
   .section-two {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1450,6 +1498,10 @@ body {
     background-color: #f4f4fd;
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+
+  .section-one {
+    padding: 112px 0;
   }
 
   .adress-list-item-li {
@@ -1636,6 +1688,15 @@ body {
     margin-bottom: 8px;
   }
 
+  .sectionthree-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color-p);
+    margin-bottom: 8px;
+    font-weight: 400;
+  }
+
   .section-two {
     padding: 120px 0;
   }
@@ -1796,7 +1857,7 @@ body {
     row-gap: 72px;
   }
 
-  .section-p {
+  /* .section-p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -1804,7 +1865,7 @@ body {
     letter-spacing: 0.02em;
     max-width: 396px;
     color: #434455;
-  }
+  } */
 
   .footer {
     background-color: #2e2f42;
